@@ -193,7 +193,7 @@
         }
       },
       {
-        "HashCode": 1677135268,
+        "HashCode": 1198961080,
         "Kind": "Components.Component",
         "Name": "FireStrike.Shared.MainLayout",
         "AssemblyName": "FireStrike",
@@ -203,25 +203,13 @@
             "TagName": "MainLayout"
           }
         ],
-        "BoundAttributes": [
-          {
-            "Kind": "Components.Component",
-            "Name": "Body",
-            "TypeName": "Microsoft.AspNetCore.Components.RenderFragment",
-            "Documentation": "\n            <summary>\n            Gets the content to be rendered inside the layout.\n            </summary>\n        ",
-            "Metadata": {
-              "Common.PropertyName": "Body",
-              "Components.ChildContent": "True"
-            }
-          }
-        ],
         "Metadata": {
           "Runtime.Name": "Components.IComponent",
           "Common.TypeName": "FireStrike.Shared.MainLayout"
         }
       },
       {
-        "HashCode": 323889799,
+        "HashCode": 535211767,
         "Kind": "Components.Component",
         "Name": "FireStrike.Shared.MainLayout",
         "AssemblyName": "FireStrike",
@@ -231,60 +219,9 @@
             "TagName": "FireStrike.Shared.MainLayout"
           }
         ],
-        "BoundAttributes": [
-          {
-            "Kind": "Components.Component",
-            "Name": "Body",
-            "TypeName": "Microsoft.AspNetCore.Components.RenderFragment",
-            "Documentation": "\n            <summary>\n            Gets the content to be rendered inside the layout.\n            </summary>\n        ",
-            "Metadata": {
-              "Common.PropertyName": "Body",
-              "Components.ChildContent": "True"
-            }
-          }
-        ],
         "Metadata": {
           "Runtime.Name": "Components.IComponent",
           "Common.TypeName": "FireStrike.Shared.MainLayout",
-          "Components.NameMatch": "Components.FullyQualifiedNameMatch"
-        }
-      },
-      {
-        "HashCode": 1941412107,
-        "Kind": "Components.ChildContent",
-        "Name": "FireStrike.Shared.MainLayout.Body",
-        "AssemblyName": "FireStrike",
-        "Documentation": "\n            <summary>\n            Gets the content to be rendered inside the layout.\n            </summary>\n        ",
-        "CaseSensitive": true,
-        "TagMatchingRules": [
-          {
-            "TagName": "Body",
-            "ParentTag": "MainLayout"
-          }
-        ],
-        "Metadata": {
-          "Runtime.Name": "Components.None",
-          "Common.TypeName": "FireStrike.Shared.MainLayout.Body",
-          "Components.IsSpecialKind": "Components.ChildContent"
-        }
-      },
-      {
-        "HashCode": -1341752305,
-        "Kind": "Components.ChildContent",
-        "Name": "FireStrike.Shared.MainLayout.Body",
-        "AssemblyName": "FireStrike",
-        "Documentation": "\n            <summary>\n            Gets the content to be rendered inside the layout.\n            </summary>\n        ",
-        "CaseSensitive": true,
-        "TagMatchingRules": [
-          {
-            "TagName": "Body",
-            "ParentTag": "FireStrike.Shared.MainLayout"
-          }
-        ],
-        "Metadata": {
-          "Runtime.Name": "Components.None",
-          "Common.TypeName": "FireStrike.Shared.MainLayout.Body",
-          "Components.IsSpecialKind": "Components.ChildContent",
           "Components.NameMatch": "Components.FullyQualifiedNameMatch"
         }
       },
