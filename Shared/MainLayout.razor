@@ -1,6 +1,57 @@
-﻿@*In original file: @inherits LayoutComponentBase*@
+﻿@inherits LayoutComponentBase
 
-<div class="page">
+<!doctype html>
+<head>
+    <title>Site Maintenance</title>
+    <style>
+        body {
+            text-align: center;
+            padding: 150px;
+            background-color: #133620;
+            color: #dfd6c5
+        }
+
+        h1 {
+            font-size: 50px;
+        }
+
+        p {
+            font: 20px Helvetica, sans-serif;
+            color: #faf6f4;
+        }
+
+        article {
+            display: block;
+            text-align: left;
+            width: 650px;
+            margin: 0 auto;
+        }
+
+        a {
+            color: #dc8100;
+            text-decoration: none;
+        }
+
+            a:hover {
+                color: #333;
+                text-decoration: none;
+            }
+    </style>
+</head>
+<body>
+    <article>
+        <h1>We&rsquo;ll be live soon!</h1>
+        <div>
+            <p>Sorry for the inconvenience but we&rsquo;re working on finishing up the website, we&rsquo;ll see you very soon!</p>
+            <p>&mdash; Fire Strike</p>
+        </div>
+    </article>
+</body>
+
+
+
+
+@*<div class="page">
     <div class="sidebar">
         <NavMenu />
     </div>
@@ -11,7 +62,8 @@
         </div>
 
         <article class="content px-4">
-            @*In original file: @Body*@
+            @Body
         </article>
     </main>
 </div>
+*@
